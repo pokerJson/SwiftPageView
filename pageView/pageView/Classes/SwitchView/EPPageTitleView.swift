@@ -137,7 +137,7 @@ extension EPPageTitleView{
         
         //设置scrollView的ContentSize
         scrollView.contentSize = CGSize(width: preLabel.frame.maxX+margin*0.5, height: 0)
-        scrollView.bringSubview(toFront: lineView)
+        scrollView.bringSubviewToFront(lineView)
     }
     
     fileprivate func widthForContent(_ label:UILabel, _ fontSize: CGFloat = 0) -> CGFloat{
