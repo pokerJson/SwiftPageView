@@ -1,0 +1,6 @@
+framework module pageView {
+  umbrella header "pageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
